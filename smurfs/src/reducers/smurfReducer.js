@@ -6,11 +6,7 @@ import {
 } from "../actions";
 
 const initialState = {
-  data: [
-    { name: "Dummy", age: 232, height: "23cm", id: 1 },
-    { name: "Idiot", age: 232, height: "23cm", id: 2 },
-    { name: "Pinhead", age: 23313, height: "23cm", id: 3 },
-  ],
+  data: [],
   loadingSmurfs: false,
   error: "",
   message: "",

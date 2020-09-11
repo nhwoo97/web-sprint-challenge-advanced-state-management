@@ -27,9 +27,8 @@ const SmurfForm = (props) => {
       age: formValues.age,
       height: `${formValues.height}cm`,
     };
-    console.log(newSmurf);
 
-    postSmurf(newSmurf);
+    props.postSmurf(newSmurf);
     setFormValues(initialFormValues);
   };
   return (

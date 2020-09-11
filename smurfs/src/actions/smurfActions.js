@@ -8,8 +8,6 @@ export const POST_SMURF = "POST_SMURF";
 const fetchSmurfs = () => (dispatch) => {
   dispatch({ type: FETCH_SMURFS });
 
-  console.log("this is the res data");
-
   axios
     .get("http://localhost:3333/smurfs")
     .then((res) => {
